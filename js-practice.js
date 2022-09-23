@@ -60,7 +60,7 @@ console.log(helloWorld());
 //3. arrays
 //a. define a variable myArray and assign it to a value of an array. Give the array at least 5 elements
 var myArray
-myArray = [1,2,3,4,4,6];
+myArray = [1,2,3,4,5];
 
 //b. an array's index starts at:
 // answer is zero
