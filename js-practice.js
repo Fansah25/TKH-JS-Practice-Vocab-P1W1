@@ -60,7 +60,7 @@ console.log(helloWorld());
 //3. arrays
 //a. define a variable myArray and assign it to a value of an array. Give the array at least 5 elements
 var myArray
-myArray = [1,2,3,4,5];
+myArray = [1,2,3,4,4,6];
 
 //b. an array's index starts at:
 // answer is zero
@@ -68,16 +68,23 @@ myArray = [1,2,3,4,5];
 //4. loops
 //a. write a for loop that console logs even numbers starting at 10 and decrementing to 0
 console.log("question4c");
-
+for (let i = 10; i >= 0; i-=2) {
+    console.log(i); ;
+    
+}
 //5. objects
 console.log("question5");
 //a. define a variable named 'bike'
-var bike
+var bike = {};
 //b. assign an object to bike
-bike = type;
+
 //c. give the object 3 properties: handlebars, color, wheels
-var type = {handlebars:"4", wheels:"4", color:"white"};
+bike = {handlebars:"", wheels:"", color:""};
 //d. give each property a value
+bike.handlebars = 4
+bike.wheels = 4
+bike.color = "white"
+console.log(bike);
 
 //6. Chessboard
 /*Write a function that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a "#" character. The characters should form a chessboard.
@@ -91,7 +98,7 @@ Passing this string to console.log should show something like this:
  # # # #
 # # # # 
  # # # #
-# # # #
+# # # # 
 When you have a program that generates this pattern, define a binding size = 8. 
 **You do not need to accept user input this differs from Eloquent JS's directions 
 
